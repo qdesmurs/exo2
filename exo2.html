@@ -1,0 +1,39 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    	<meta charset=utf-8 />
+    	<title>Test Formulaire</title>
+    	<link rel="stylesheet" type="text/css" href="css/exo2.css" />
+    </head>
+    <body>
+        <section>
+            <form action="http://live.codincamp.fr/mail.php" method="post">
+                <fieldset>
+                    <legend>Informations:</legend>
+                        <ul>
+                            <li><label>Nom:</label>
+                            <input type="text" name="name" /></li>
+
+                            <li><label>Prenom:</label>
+                            <input type="text" name="firstname" /></li>
+
+                            <li><label>Age:</label>
+                            <input type="number" name="age" /></li>
+
+                            <li><label>E-mail:</label>
+                            <input type="email" name="email" /></li>
+                            
+                            <li><label>Sujet:</label>
+                            <input type="text" name="subject" /></li>
+                        </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Commentaires:</legend>
+                    <textarea name="message" cols="50" rows="10"></textarea>
+                </fieldset>
+                <input type="submit" name="" value="Envoyer"/>
+            </form>
+        </section>
+    </body>
+    </html>
